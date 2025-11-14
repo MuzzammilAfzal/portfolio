@@ -5,12 +5,12 @@ import React from 'react'
 const WorkExperience = () => {
     const router=useRouter()
   return (
-    <div className='  w-full m-4 mt-20 opacity-90 '>
+    <div className='  w-full  mt-20 opacity-90 '>
         <div className='flex justify-center mb-4'>
            <span className='text-2xl text-white '><u>Work Experience</u></span>
         </div>
         <div className='flex justify-center '>
-          <div className='w-full md:w-[30%] h-fit border border-white rounded-2xl p-4 text-black bg-white hover:scale-110 transition-transform'>
+          <div className='w-[90%] md:w-full h-fit border border-white rounded-2xl p-4 text-black bg-white hover:scale-110 transition-transform'>
            <div>
              <span className='text-2xl font-bold'>Full Stack Developer Internship</span>
            </div>
