@@ -18,7 +18,7 @@ const About = () => {
             >Full Stack Engineer</span>
            <div className='flex gap-2'>
                 <button className='text-black p-2 bg-white rounded-4xl my-2 hover:bg-black hover:text-white flex justify-center'
-            onClick={()=>{router.push("/resume")}}
+            onClick={()=>{router.push("/files/resume")}}
             >Resume ➚</button>
 
             <button className='text-black p-2 bg-white  rounded-4xl my-2 hover:bg-black hover:text-white flex justify-center'

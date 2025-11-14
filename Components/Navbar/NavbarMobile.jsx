@@ -9,7 +9,7 @@ const NavbarMobile = () => {
 
    if(window.innerWidth<768)
     return(
-     <nav className='sticky top-0  w-screen p-8 opacity-100  flex justify-around '>
+     <nav className='sticky top-0  w-screen p-8 opacity-100  flex justify-around z-50'>
        <div>
            <Link href={"/"}>
                <span className='text-white  transition-all hover:text-2xl '>Muzzammil Afzal Portfolio</span>
@@ -23,8 +23,8 @@ const NavbarMobile = () => {
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
         {open && (
-        <div className=" flex flex-col rounded-2xl p-2 px-4 z-50 fixed top-18 right-4 items-center opacity-100 bg-white shadow-md space-y-3 py-4 transition-all duration-300">
-          <Link href="/about" onClick={() => setOpen(false)}>About</Link>
+        <div className=" flex flex-col rounded-2xl p-2 px-4  fixed top-18 right-4 items-center opacity-100 bg-white shadow-md space-y-3 py-4 transition-all duration-300">
+          <Link href="/" onClick={() => setOpen(false)}>About</Link>
           <Link href="/" onClick={() => setOpen(false)}>work Experience</Link>
           <Link href="/" onClick={() => setOpen(false)}>Projects</Link>
           <Link href="/" onClick={() => setOpen(false)}>Skills</Link>
