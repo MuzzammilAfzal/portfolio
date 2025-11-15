@@ -14,12 +14,15 @@ const About = () => {
           <div className='p-2 md:p-20'>
             <span className="text-white text-4xl block text-center hover:scale-110 transition-all"
             >Muzzammil Afzal</span>
-            <span className="text-white my-2 "
+            <span className="text-white my-2 block text-center "
             >Full Stack Engineer</span>
-           <div className='flex gap-2'>
+           <div className='flex flex-wrap gap-2'>
                 <button className='text-black p-2 bg-white rounded-4xl my-2 hover:bg-black hover:text-white flex justify-center'
             onClick={()=>{router.push("/files/resume")}}
             >Resume ➚</button>
+
+            <button className='text-black p-2 bg-white  rounded-4xl my-2 hover:bg-black hover:text-white flex justify-center'
+            ><Link href={"mailto:muzzu2605afzall@gmail.com"}  target="_blank">Email ➚</Link></button>
 
             <button className='text-black p-2 bg-white  rounded-4xl my-2 hover:bg-black hover:text-white flex justify-center'
             ><Link href={"https://www.linkedin.com/in/muzzammil-afzal-045155322/"}  target="_blank">LinkedIn ➚</Link></button>
