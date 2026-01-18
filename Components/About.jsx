@@ -9,7 +9,7 @@ const About = () => {
   return (
      <div className="flex flex-wrap w-screen h-fit justify-center ">
           <div className='w-[50%] md:w-[20%]  '>
-              <img src="/images/profile.jpg" alt="" className='rounded-full w-full border-2 border-white hover:scale-110 transition-all' />
+              <img src="/images/profile.jpeg" alt="" className='rounded-full w-full border-2 border-white hover:scale-110 transition-all' />
           </div>
           <div className='p-2 md:p-20'>
             <span className="text-white text-4xl block text-center hover:scale-110 transition-all"
