@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
     const skills=[
-        "React.js","Express","MongoDB","PostgreSQL","Node.js","APIs","Javascript","Typescript","Next.js","Prisma ORM","Git","Postman","Docker"
+        "React.js","Express","MongoDB","PostgreSQL","Node.js","APIs","Javascript","Typescript","Next.js","Prisma ORM","Git","Postman","Docker","Amazon Web Services (AWS)","Amazon S3", "Amazon EC2"
     ]
   return (
     <div className='w-full  mt-20 opacity-90 p-4 '>

@@ -53,6 +53,53 @@ const Projects = () => {
         </div>
 
 
+
+
+
+          <div className='w-[90%] md:w-[40%] h-auto  border border-white rounded-2xl p-4 text-black bg-white hover:scale-105 transition-transform'>
+           <div>
+             <span className='text-2xl font-bold '>Smart Bookmark Application</span>
+           </div>
+            <div className='m-2'>
+                <Link className='text-blue-400  bg-black  rounded-4xl  px-4 py-2 hover:bg-black hover:text-white '
+             href={"https://smart-bookmark-app-self-six.vercel.app/"} target='_blank'
+            >Link➚</Link>
+            </div>
+           <div className='p-2'>
+             <span className='w-full font-bold'>
+             Key Highlights:-
+             </span>
+            <div className=' px-2'>
+             <li>
+              🔖 Smart Bookmark Management System <br />
+                  Users can save, organize, and manage bookmarks (links) efficiently with real-time updates and personalized access.
+             </li>
+             <li>
+                 🔐 Authentication & Security <br />
+                  Secure login with Google OAuth via Supabase Auth, ensuring user-specific private data with Row Level Security (RLS).
+             </li>
+             <li>
+                ⚡ User Dashboard <br />
+                   My Bookmarks: Clean UI to add, delete, view and manage saved links
+                   Real-time Updates: Instantly reflects changes using live subscriptions
+             </li>
+             <li>
+                🛠️ Modern Tech Stack <br />
+                    Frontend: Next.js (App Router), Tailwind CSS <br />
+                    Backend: Supabase (Postgres, Auth, Realtime) <br />
+                    ORM: Prisma <br />
+                    Deployment: Vercel <br />
+             </li>
+            </div>
+           </div>
+        </div>
+
+
+
+
+
+
+
         <div className='w-[90%] md:w-[40%] h-fit border border-white rounded-2xl p-4 text-black bg-white hover:scale-105 transition-transform'>
            <div>
              <span className='text-2xl font-bold '>Food Delivery App</span>
