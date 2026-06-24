@@ -22,27 +22,27 @@ const Projects = () => {
             >Link➚</Link>
             </div>
            <div className='p-2'>
-             <span className='w-full font-bold'>
+             <span className='w-full font-bold underline'>
              Key Highlights:-
              </span>
             <div className=' px-2'>
              <li>
-               🛒 Complete E-commerce System Users can browse electronic products (phones, laptops, TVs, etc.), <br />
+                Complete E-commerce System Users can browse electronic products (phones, laptops, TVs, etc.), <br />
                 view details, add to cart, buy, and track orders.
              </li>
              <li>
-                 🔐 Authentication & Security Includes Sign Up / Login with JWT-based authentication
+                  Authentication & Security Includes Sign Up / Login with JWT-based authentication
              </li>
              <li>
-                🧾 Product Browsing Experience Clean product cards showing images, specs, and pricing, with Add to Cart and Buy Now options.
+                 Product Browsing Experience Clean product cards showing images, specs, and pricing, with Add to Cart and Buy Now options.
              </li>
              <li>
-                ⚡ User Dashboard <br/>
+                 User Dashboard <br/>
                  My Cart: Manage added items ,<br />
                  My Orders: View past purchases
              </li>
              <li>
-                🛠️ Modern Tech Stack <br />
+                 Modern Tech Stack <br />
              Frontend: React.js <br />
              Backend: Node.js <br />
              Database: MongoDB <br />
@@ -66,25 +66,25 @@ const Projects = () => {
             >Link➚</Link>
             </div>
            <div className='p-2'>
-             <span className='w-full font-bold'>
+             <span className='w-full font-bold underline'>
              Key Highlights:-
              </span>
             <div className=' px-2'>
              <li>
-              🔖 Smart Bookmark Management System <br />
+                 Smart Bookmark Management System <br />
                   Users can save, organize, and manage bookmarks (links) efficiently with real-time updates and personalized access.
              </li>
              <li>
-                 🔐 Authentication & Security <br />
+                  Authentication & Security <br />
                   Secure login with Google OAuth via Supabase Auth, ensuring user-specific private data with Row Level Security (RLS).
              </li>
              <li>
-                ⚡ User Dashboard <br />
+                 User Dashboard <br />
                    My Bookmarks: Clean UI to add, delete, view and manage saved links
                    Real-time Updates: Instantly reflects changes using live subscriptions
              </li>
              <li>
-                🛠️ Modern Tech Stack <br />
+                  Modern Tech Stack <br />
                     Frontend: Next.js (App Router), Tailwind CSS <br />
                     Backend: Supabase (Postgres, Auth, Realtime) <br />
                     ORM: Prisma <br />
@@ -110,16 +110,16 @@ const Projects = () => {
             >Link➚</Link>
             </div>
            <div className='p-2'>
-             <span className='w-full font-bold'>
+             <span className='w-full font-bold underline'>
              Key Highlights:-
              </span>
             <div className=' px-2'>
              <li>
-                🍽️ Complete Food Delivery System <br />
+                 Complete Food Delivery System <br />
                  Supports seamless interaction among customers, restaurants, and delivery riders with smooth ordering and tracking flow.
              </li>
              <li>
-                 ⚡ Real-Time Order Tracking (WebSockets) <br />
+                  Real-Time Order Tracking (WebSockets) <br />
 
             Live updates showing: <br />
 
@@ -136,7 +136,7 @@ const Projects = () => {
             All updates reflect instantly for users without refreshing the page. <br />
              </li>
              <li>
-                 🔐 Secure Authentication <br />
+                  Secure Authentication <br />
 
                 JWT-based login & registration <br />
 
@@ -147,7 +147,7 @@ const Projects = () => {
                 Customers , Restaurants , Riders 
              </li>
              <li>
-                 📡 RESTful API Backend <br />
+                  RESTful API Backend <br />
 
                 Built with Node.js + Express.js, handling: <br />
 
@@ -162,7 +162,7 @@ const Projects = () => {
                 Assigning riders.
              </li>
              <li>
-               🛠️  Modern Tech Stack <br />
+                 Modern Tech Stack <br />
              Frontend: React.js <br />
              Backend: Node.js <br />
              Database: MongoDB <br />

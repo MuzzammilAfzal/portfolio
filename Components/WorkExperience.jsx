@@ -5,7 +5,7 @@ import React from 'react'
 const WorkExperience = () => {
     const router=useRouter()
   return (
-    <div className='  w-full  mt-20 opacity-90 '>
+    <div className='  w-full  mt-10 opacity-90 '>
         <div className='flex justify-center mb-4'>
            <span className='text-2xl text-white '><u>Work Experience</u></span>
         </div>
@@ -58,16 +58,16 @@ const WorkExperience = () => {
              <span className='text-2xl font-bold'>Full Stack Engineer Internship</span>
            </div>
            <div>
-             <span className=''>🏢AiRobosoft products and services LLP</span>
+             <span className='font-bold'>AiRobosoft products and services LLP</span>
            </div>
            <div>
-             <span className=''>🗓️ 8 December 2025 - 8 January 2026</span>
+             <span className='font-bold'> 8 December 2025 - 8 January 2026</span>
            </div>
            <div>
-             <span className=''>📍Location : Bangalore </span>
+             <span className='font-bold'>📍Location : Bangalore </span>
            </div>
            <div className='p-2'>
-             <span className='w-full font-bold'>
+             <span className='w-full font-bold underline'>
              Key Responsibilities:-
              </span>
             <div className=' px-2'>
@@ -104,16 +104,16 @@ const WorkExperience = () => {
              <span className='text-2xl font-bold'>Full Stack Developer Internship</span>
            </div>
            <div>
-             <span className=''>🏢The Entrepreneurship Network (Limitless Technologies LLP)</span>
+             <span className='font-bold'>The Entrepreneurship Network (Limitless Technologies LLP)</span>
            </div>
            <div>
-             <span className=''>🗓️ Septumber 2025 - November 2025</span>
+             <span className='font-bold'>September 2025 - November 2025</span>
            </div>
            <div>
-             <span className=''>📍Location : Remote</span>
+             <span className='font-bold'>📍Location : Remote</span>
            </div>
            <div className='p-2'>
-             <span className='w-full font-bold'>
+             <span className='w-full font-bold underline'>
              Key Responsibilities:-
              </span>
             <div className=' px-2'>

@@ -7,11 +7,11 @@ import Link from 'next/link'
 const About = () => {
     const router = useRouter()
   return (
-     <div className="flex flex-wrap w-screen h-fit justify-center ">
+     <div className="flex flex-wrap w-screen h-fit justify-center items-center ">
           <div className='w-[50%] md:w-[20%]  '>
               <img src="/images/profile.jpeg" alt="" className='rounded-full w-full border-2 border-white hover:scale-110 transition-all' />
           </div>
-          <div className='p-2 md:p-20'>
+          <div className='p-2 md:p-20 '>
             <span className="text-white text-4xl block text-center hover:scale-110 transition-all"
             >Muzzammil Afzal</span>
             <span className="text-white my-2 block text-center "

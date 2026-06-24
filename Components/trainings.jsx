@@ -15,10 +15,10 @@ const Trainings = () => {
              <span className='text-2xl font-bold'>Complete web development course</span>
            </div>
            <div>
-             <span className=''>🧑‍🏫 From: Udemy</span>
+             <span className='font-bold'>From: Udemy</span>
            </div>
            <div>
-             <span className=''>🗓️ June 2025</span>
+             <span className='font-bold'>June 2025</span>
            </div>
 
            <div className='py-2'>
@@ -42,10 +42,10 @@ const Trainings = () => {
              <span className='text-2xl font-bold'>Generative AI: The Evolution of Thoughtful Online Search Generative AI: The Evolution of Thoughtful Online Searc</span>
            </div>
            <div>
-             <span className=''>🧑‍🏫 From: LinkedIn Learning</span>
+             <span className='font-bold'>From: LinkedIn Learning</span>
            </div>
            <div>
-             <span className=''>🗓️ November 2025</span>
+             <span className='font-bold'>November 2025</span>
            </div>
            
            <button className='text-blue-400 bg-black p-2 rounded-4xl my-2 hover:bg-black hover:text-white flex justify-center'
